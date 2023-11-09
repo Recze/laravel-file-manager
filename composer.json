@@ -13,7 +13,7 @@
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/alexusami/laravel-file-manager",
+    "homepage": "https://github.com/recze/laravel-file-manager",
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
