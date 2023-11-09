@@ -1,6 +1,6 @@
 <?php
 
-namespace Alexusmai\LaravelFileManager\Events;
+namespace Recze\LaravelFileManager\Events;
 
 class BeforeInitialization
 {

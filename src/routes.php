@@ -1,7 +1,7 @@
 <?php
 
-use Alexusmai\LaravelFileManager\Controllers\FileManagerController;
-use Alexusmai\LaravelFileManager\Services\ConfigService\ConfigRepository;
+use Recze\LaravelFileManager\Controllers\FileManagerController;
+use Recze\LaravelFileManager\Services\ConfigService\ConfigRepository;
 use Illuminate\Support\Facades\Route;
 
 $config = resolve(ConfigRepository::class);
@@ -19,7 +19,7 @@ if ($config->getAcl()) {
 Route::group([
     'middleware' => $middleware,
     'prefix'     => $config->getRoutePrefix(),
-    'namespace'  => 'Alexusmai\LaravelFileManager\Controllers',
+    'namespace'  => 'Recze\LaravelFileManager\Controllers',
 ], function () {
 
     Route::get('initialize', [FileManagerController::class, 'initialize'])

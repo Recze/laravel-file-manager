@@ -1,25 +1,25 @@
 <?php
 
-namespace Alexusmai\LaravelFileManager\Controllers;
+namespace Recze\LaravelFileManager\Controllers;
 
-use Alexusmai\LaravelFileManager\Events\BeforeInitialization;
-use Alexusmai\LaravelFileManager\Events\Deleting;
-use Alexusmai\LaravelFileManager\Events\DirectoryCreated;
-use Alexusmai\LaravelFileManager\Events\DirectoryCreating;
-use Alexusmai\LaravelFileManager\Events\DiskSelected;
-use Alexusmai\LaravelFileManager\Events\Download;
-use Alexusmai\LaravelFileManager\Events\FileCreated;
-use Alexusmai\LaravelFileManager\Events\FileCreating;
-use Alexusmai\LaravelFileManager\Events\FilesUploaded;
-use Alexusmai\LaravelFileManager\Events\FilesUploading;
-use Alexusmai\LaravelFileManager\Events\FileUpdate;
-use Alexusmai\LaravelFileManager\Events\Paste;
-use Alexusmai\LaravelFileManager\Events\Rename;
-use Alexusmai\LaravelFileManager\Events\Zip as ZipEvent;
-use Alexusmai\LaravelFileManager\Events\Unzip as UnzipEvent;
-use Alexusmai\LaravelFileManager\Requests\RequestValidator;
-use Alexusmai\LaravelFileManager\FileManager;
-use Alexusmai\LaravelFileManager\Services\Zip;
+use Recze\LaravelFileManager\Events\BeforeInitialization;
+use Recze\LaravelFileManager\Events\Deleting;
+use Recze\LaravelFileManager\Events\DirectoryCreated;
+use Recze\LaravelFileManager\Events\DirectoryCreating;
+use Recze\LaravelFileManager\Events\DiskSelected;
+use Recze\LaravelFileManager\Events\Download;
+use Recze\LaravelFileManager\Events\FileCreated;
+use Recze\LaravelFileManager\Events\FileCreating;
+use Recze\LaravelFileManager\Events\FilesUploaded;
+use Recze\LaravelFileManager\Events\FilesUploading;
+use Recze\LaravelFileManager\Events\FileUpdate;
+use Recze\LaravelFileManager\Events\Paste;
+use Recze\LaravelFileManager\Events\Rename;
+use Recze\LaravelFileManager\Events\Zip as ZipEvent;
+use Recze\LaravelFileManager\Events\Unzip as UnzipEvent;
+use Recze\LaravelFileManager\Requests\RequestValidator;
+use Recze\LaravelFileManager\FileManager;
+use Recze\LaravelFileManager\Services\Zip;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Http\JsonResponse;

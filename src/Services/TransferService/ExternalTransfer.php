@@ -1,8 +1,8 @@
 <?php
 
-namespace Alexusmai\LaravelFileManager\Services\TransferService;
+namespace Recze\LaravelFileManager\Services\TransferService;
 
-use Alexusmai\LaravelFileManager\Traits\PathTrait;
+use Recze\LaravelFileManager\Traits\PathTrait;
 use Illuminate\Support\Facades\Storage;
 use League\Flysystem\FilesystemException;
 use League\Flysystem\MountManager;

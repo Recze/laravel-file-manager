@@ -1,6 +1,6 @@
 <?php
 
-namespace Alexusmai\LaravelFileManager\Traits;
+namespace Recze\LaravelFileManager\Traits;
 
 use Illuminate\Support\Facades\Storage;
 

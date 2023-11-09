@@ -1,13 +1,13 @@
 <?php
 
-namespace Alexusmai\LaravelFileManager;
+namespace Recze\LaravelFileManager;
 
-use Alexusmai\LaravelFileManager\Events\Deleted;
-use Alexusmai\LaravelFileManager\Services\ConfigService\ConfigRepository;
-use Alexusmai\LaravelFileManager\Services\TransferService\TransferFactory;
-use Alexusmai\LaravelFileManager\Traits\CheckTrait;
-use Alexusmai\LaravelFileManager\Traits\ContentTrait;
-use Alexusmai\LaravelFileManager\Traits\PathTrait;
+use Recze\LaravelFileManager\Events\Deleted;
+use Recze\LaravelFileManager\Services\ConfigService\ConfigRepository;
+use Recze\LaravelFileManager\Services\TransferService\TransferFactory;
+use Recze\LaravelFileManager\Traits\CheckTrait;
+use Recze\LaravelFileManager\Traits\ContentTrait;
+use Recze\LaravelFileManager\Traits\PathTrait;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Http\Response;
 use Illuminate\Support\Arr;
