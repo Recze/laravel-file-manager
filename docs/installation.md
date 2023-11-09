@@ -3,19 +3,19 @@
 1. Install package - using composer
 
 ```
-composer require alexusmai/laravel-file-manager
+composer require recze/laravel-file-manager
 ```
 
 For Laravel 5 - 8 use v2.5.4
 
 ```
-composer require alexusmai/laravel-file-manager "2.5.4"
+composer require recze/laravel-file-manager "2.5.4"
 ```
 
 2. If you use Laravel 5.4, then add service provider to config/app.php (for the Laravel 5.5 and higher skip this step):
 
 ```php
-Alexusmai\LaravelFileManager\FileManagerServiceProvider::class,
+Recze\LaravelFileManager\FileManagerServiceProvider::class,
 ```
 
 3. Publish configuration file
@@ -25,7 +25,7 @@ php artisan vendor:publish --tag=fm-config
 ```
 
 4. You can install npm package directly and use it in your vue application - more information about it -
-   [vue-laravel-file-manager](https://github.com/alexusmai/vue-laravel-file-manager)
+   [vue-laravel-file-manager](https://github.com/recze/vue-laravel-file-manager)
 
 > OR
 

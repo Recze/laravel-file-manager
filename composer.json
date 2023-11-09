@@ -1,5 +1,5 @@
 {
-    "name": "alexusmai/laravel-file-manager",
+    "name": "recze/laravel-file-manager",
     "description": "File manager for Laravel",
     "keywords": [
         "laravel",
@@ -8,8 +8,8 @@
     ],
     "authors": [
         {
-            "name": "Aleksandr Manekin",
-            "email": "alexusmai@gmail.com",
+            "name": "Zsolt Reczi",
+            "email": "recze01@gmail.com",
             "role": "Developer"
         }
     ],
@@ -27,13 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Alexusmai\\LaravelFileManager\\": "src"
+            "Recze\\LaravelFileManager\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Alexusmai\\LaravelFileManager\\FileManagerServiceProvider"
+                "Recze\\LaravelFileManager\\FileManagerServiceProvider"
             ]
         }
     }

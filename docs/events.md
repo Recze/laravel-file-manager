@@ -2,12 +2,12 @@
 
 ### BeforeInitialization
 
-> Alexusmai\LaravelFileManager\Events\BeforeInitialization
+> Recze\LaravelFileManager\Events\BeforeInitialization
 
 Example:
 
 ```php
-\Event::listen('Alexusmai\LaravelFileManager\Events\BeforeInitialization',
+\Event::listen('Recze\LaravelFileManager\Events\BeforeInitialization',
     function ($event) {
         
     }
@@ -16,12 +16,12 @@ Example:
 
 ### DiskSelected
 
-> Alexusmai\LaravelFileManager\Events\DiskSelected
+> Recze\LaravelFileManager\Events\DiskSelected
 
 Example:
 
 ```php
-\Event::listen('Alexusmai\LaravelFileManager\Events\DiskSelected',
+\Event::listen('Recze\LaravelFileManager\Events\DiskSelected',
     function ($event) {
         \Log::info('DiskSelected:', [$event->disk()]);
     }
@@ -30,10 +30,10 @@ Example:
 
 ### FilesUploading
 
-> Alexusmai\LaravelFileManager\Events\FilesUploading
+> Recze\LaravelFileManager\Events\FilesUploading
 
 ```php
-\Event::listen('Alexusmai\LaravelFileManager\Events\FilesUploading',
+\Event::listen('Recze\LaravelFileManager\Events\FilesUploading',
     function ($event) {
         \Log::info('FilesUploading:', [
             $event->disk(),
@@ -47,10 +47,10 @@ Example:
 
 ### FilesUploaded
 
-> Alexusmai\LaravelFileManager\Events\FilesUploaded
+> Recze\LaravelFileManager\Events\FilesUploaded
 
 ```php
-\Event::listen('Alexusmai\LaravelFileManager\Events\FilesUploaded',
+\Event::listen('Recze\LaravelFileManager\Events\FilesUploaded',
     function ($event) {
         \Log::info('FilesUploaded:', [
             $event->disk(),
@@ -64,10 +64,10 @@ Example:
 
 ### Deleting
 
-> Alexusmai\LaravelFileManager\Events\Deleting
+> Recze\LaravelFileManager\Events\Deleting
 
 ```php
-\Event::listen('Alexusmai\LaravelFileManager\Events\Deleting',
+\Event::listen('Recze\LaravelFileManager\Events\Deleting',
     function ($event) {
         \Log::info('Deleting:', [
             $event->disk(),
@@ -79,10 +79,10 @@ Example:
 
 ### Deleted
 
-> Alexusmai\LaravelFileManager\Events\Deleted
+> Recze\LaravelFileManager\Events\Deleted
 
 ```php
-\Event::listen('Alexusmai\LaravelFileManager\Events\Deleted',
+\Event::listen('Recze\LaravelFileManager\Events\Deleted',
     function ($event) {
         \Log::info('Deleted:', [
             $event->disk(),
@@ -94,10 +94,10 @@ Example:
 
 ### Paste
 
-> Alexusmai\LaravelFileManager\Events\Paste
+> Recze\LaravelFileManager\Events\Paste
 
 ```php
-\Event::listen('Alexusmai\LaravelFileManager\Events\Paste',
+\Event::listen('Recze\LaravelFileManager\Events\Paste',
     function ($event) {
         \Log::info('Paste:', [
             $event->disk(),
@@ -110,10 +110,10 @@ Example:
 
 ### Rename
 
-> Alexusmai\LaravelFileManager\Events\Rename
+> Recze\LaravelFileManager\Events\Rename
 
 ```php
-\Event::listen('Alexusmai\LaravelFileManager\Events\Rename',
+\Event::listen('Recze\LaravelFileManager\Events\Rename',
     function ($event) {
         \Log::info('Rename:', [
             $event->disk(),
@@ -127,10 +127,10 @@ Example:
 
 ### Download
 
-> Alexusmai\LaravelFileManager\Events\Download
+> Recze\LaravelFileManager\Events\Download
 
 ```php
-\Event::listen('Alexusmai\LaravelFileManager\Events\Download',
+\Event::listen('Recze\LaravelFileManager\Events\Download',
     function ($event) {
         \Log::info('Download:', [
             $event->disk(),
@@ -144,10 +144,10 @@ Example:
 
 ### DirectoryCreating
 
-> Alexusmai\LaravelFileManager\Events\DirectoryCreating
+> Recze\LaravelFileManager\Events\DirectoryCreating
 
 ```php
-\Event::listen('Alexusmai\LaravelFileManager\Events\DirectoryCreating',
+\Event::listen('Recze\LaravelFileManager\Events\DirectoryCreating',
     function ($event) {
         \Log::info('DirectoryCreating:', [
             $event->disk(),
@@ -160,10 +160,10 @@ Example:
 
 ### DirectoryCreated
 
-> Alexusmai\LaravelFileManager\Events\DirectoryCreated
+> Recze\LaravelFileManager\Events\DirectoryCreated
 
 ```php
-\Event::listen('Alexusmai\LaravelFileManager\Events\DirectoryCreated',
+\Event::listen('Recze\LaravelFileManager\Events\DirectoryCreated',
     function ($event) {
         \Log::info('DirectoryCreated:', [
             $event->disk(),
@@ -176,10 +176,10 @@ Example:
 
 ### FileCreating
 
-> Alexusmai\LaravelFileManager\Events\FileCreating
+> Recze\LaravelFileManager\Events\FileCreating
 
 ```php
-\Event::listen('Alexusmai\LaravelFileManager\Events\FileCreating',
+\Event::listen('Recze\LaravelFileManager\Events\FileCreating',
     function ($event) {
         \Log::info('FileCreating:', [
             $event->disk(),
@@ -192,10 +192,10 @@ Example:
 
 ### FileCreated
 
-> Alexusmai\LaravelFileManager\Events\FileCreated
+> Recze\LaravelFileManager\Events\FileCreated
 
 ```php
-\Event::listen('Alexusmai\LaravelFileManager\Events\FileCreated',
+\Event::listen('Recze\LaravelFileManager\Events\FileCreated',
     function ($event) {
         \Log::info('FileCreated:', [
             $event->disk(),
@@ -208,10 +208,10 @@ Example:
 
 ### FileUpdate
 
-> Alexusmai\LaravelFileManager\Events\FileUpdate
+> Recze\LaravelFileManager\Events\FileUpdate
 
 ```php
-\Event::listen('Alexusmai\LaravelFileManager\Events\FileUpdate',
+\Event::listen('Recze\LaravelFileManager\Events\FileUpdate',
     function ($event) {
         \Log::info('FileUpdate:', [
             $event->disk(),
@@ -223,10 +223,10 @@ Example:
 
 ### Zip
 
-> Alexusmai\LaravelFileManager\Events\Zip
+> Recze\LaravelFileManager\Events\Zip
 
 ```php
-\Event::listen('Alexusmai\LaravelFileManager\Events\Zip',
+\Event::listen('Recze\LaravelFileManager\Events\Zip',
     function ($event) {
         \Log::info('Zip:', [
             $event->disk(),
@@ -240,10 +240,10 @@ Example:
 
 ### ZipCreated
 
-> Alexusmai\LaravelFileManager\Events\ZipCreated
+> Recze\LaravelFileManager\Events\ZipCreated
 
 ```php
-\Event::listen('Alexusmai\LaravelFileManager\Events\ZipCreated',
+\Event::listen('Recze\LaravelFileManager\Events\ZipCreated',
     function ($event) {
         \Log::info('ZipCreated:', [
             $event->disk(),
@@ -257,10 +257,10 @@ Example:
 
 ### ZipFailed
 
-> Alexusmai\LaravelFileManager\Events\ZipCreated
+> Recze\LaravelFileManager\Events\ZipCreated
 
 ```php
-\Event::listen('Alexusmai\LaravelFileManager\Events\ZipFailed',
+\Event::listen('Recze\LaravelFileManager\Events\ZipFailed',
     function ($event) {
         \Log::info('ZipFailed:', [
             $event->disk(),
@@ -274,10 +274,10 @@ Example:
 
 ### Unzip
 
-> Alexusmai\LaravelFileManager\Events\Unzip
+> Recze\LaravelFileManager\Events\Unzip
 
 ```php
-\Event::listen('Alexusmai\LaravelFileManager\Events\Unzip',
+\Event::listen('Recze\LaravelFileManager\Events\Unzip',
     function ($event) {
         \Log::info('Unzip:', [
             $event->disk(),
@@ -290,10 +290,10 @@ Example:
 
 ### UnzipCreated
 
-> Alexusmai\LaravelFileManager\Events\UnzipCreated
+> Recze\LaravelFileManager\Events\UnzipCreated
 
 ```php
-\Event::listen('Alexusmai\LaravelFileManager\Events\UnzipCreated',
+\Event::listen('Recze\LaravelFileManager\Events\UnzipCreated',
     function ($event) {
         \Log::info('UnzipCreated:', [
             $event->disk(),
@@ -306,10 +306,10 @@ Example:
 
 ### UnzipFailed
 
-> Alexusmai\LaravelFileManager\Events\UnzipFailed
+> Recze\LaravelFileManager\Events\UnzipFailed
 
 ```php
-\Event::listen('Alexusmai\LaravelFileManager\Events\UnzipFailed',
+\Event::listen('Recze\LaravelFileManager\Events\UnzipFailed',
     function ($event) {
         \Log::info('UnzipFailed:', [
             $event->disk(),
