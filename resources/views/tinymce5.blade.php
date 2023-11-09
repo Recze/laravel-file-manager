@@ -36,13 +36,13 @@
       },
       mySubmit: function (URL) {
         // pass selected file path to TinyMCE
-        parent.postMessage({
+        window.top.postMessage({
             mceAction: 'insert',
             content: URL,
             text: URL.split('/').pop()
-        })
+        }, '*')
         // close popup window
-        parent.postMessage({ mceAction: 'close' });
+        window.top.postMessage({ mceAction: 'close' }, '*');
       }
     };
 
